@@ -1,3 +1,5 @@
+package src.main.java;
+
 public class Operaciones {
 
     public static double sumar(double a, double b) {
