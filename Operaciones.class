@@ -1,0 +1,25 @@
+// Source code is decompiled from a .class file using FernFlower decompiler (from Intellij IDEA).
+public class Operaciones {
+   public Operaciones() {
+   }
+
+   public static double sumar(double var0, double var2) {
+      return var0 + var2;
+   }
+
+   public static double restar(double var0, double var2) {
+      return var0 - var2;
+   }
+
+   public static double multiplicar(double var0, double var2) {
+      return var0 * var2;
+   }
+
+   public static double dividir(double var0, double var2) {
+      if (var2 == 0.0) {
+         throw new IllegalArgumentException("El divisor no puede ser cero.");
+      } else {
+         return var0 / var2;
+      }
+   }
+}
